@@ -443,11 +443,12 @@
   resolved "https://registry.yarnpkg.com/@mantine/hooks/-/hooks-4.2.12.tgz#8dfbd23763959b721f5c5c784b3c412bb7c9823a"
   integrity sha512-/2GOsgv1tAUFBXOUV0YBZdDZHj3pHN82Sv1oI/hJMjfIT3ZkGeeiJO8Cw9cBcn76t6caP6Czi3hcuKhjz71O+A==
 
-"@mantine/prism@^4.0":
-  version "4.2.12"
-  resolved "https://registry.yarnpkg.com/@mantine/prism/-/prism-4.2.12.tgz#728169dfad2a05a2bf920ba0bf16acf66fb95460"
-  integrity sha512-zFwkBs0+4kaYnKPWbFaulM6cZGQCJgQzxTzXmZsLoBn5d/3U7pIbm0wX9ZvDoEscpN4YTp4WqvZGYGOMkIjgZw==
+"@mantine/prism@^4.0 || ^5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@mantine/prism/-/prism-5.0.0.tgz#cadb1ebbfdd2d9509411e957c6a6194c27f41241"
+  integrity sha512-wdSUVNS7zbvdQI3HjCSoCLGyYXIGKPLnfWAB59tsyHgquBTDqYNZMO8drEBiWboEbD2n4MOz3OC+oKelEdy9ZA==
   dependencies:
+    "@mantine/utils" "5.0.0"
     prism-react-renderer "^1.2.1"
 
 "@mantine/styles@4.2.12":
@@ -461,6 +462,11 @@
     "@emotion/utils" "1.0.0"
     clsx "^1.1.1"
     csstype "3.0.9"
+
+"@mantine/utils@5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@mantine/utils/-/utils-5.0.0.tgz#576ebab6b0980b996ecb70b277f4ea378dcfb474"
+  integrity sha512-Fy9BdxWvrXkplWua8ZKmsBQODo24QB8OPn6BEmvXUt4O+3qoP27VaAWQVea4opWZsy+L5dtEe/kOXY/Q/kC2qg==
 
 "@popperjs/core@^2.9.3":
   version "2.11.3"
